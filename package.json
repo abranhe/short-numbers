@@ -1,6 +1,6 @@
 {
 	"name": "short-numbers",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Make short numbers from long numbers",
 	"license": "MIT",
 	"repository": "abranhe/short-numbers",
