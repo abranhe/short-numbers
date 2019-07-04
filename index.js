@@ -10,6 +10,14 @@ module.exports = (input, options) => {
 		...options
 	};
 
+	if (typeof input !== 'string' && typeof input !== 'number') {
+		throw new TypeError(`Expected an String/Number in the second argument, got ${typeof input}`);
+	}
+
+	if (isNaN(input)) {
+		throw new TypeError(`Expected an valid number, or a valid numerical string, got '${input}'`);
+	}
+
 	if (input < 1e3) {
 		return input;
 	}
