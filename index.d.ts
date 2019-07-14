@@ -47,7 +47,7 @@ shortNumbers('10300', { space: true })
 */
 declare function shortNumbers(
   input: string | number,
-  wpm?: shortNumbers.Options,
+  options?: shortNumbers.Options,
 ): string;
 
 export = shortNumbers;

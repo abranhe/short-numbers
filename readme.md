@@ -100,14 +100,14 @@ Specify if the contains space before sufix.
 > Current behavior
 
 ```js
-shortNumbers('2000000', { m: 'million', space: true })
-// => 2 million
+shortNumbers('2000000', { m: 'million like', space: true })
+// => 2 million like
 ```
 
 > Desired behavior
 
 ```
-// => 2 millions
+// => 2 million likes
 ```
 
 - Suport for prefix. An optional string to prepend to the value, e.g. `'$'`.
