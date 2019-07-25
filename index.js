@@ -11,7 +11,7 @@ module.exports = (input, options) => {
 	};
 
 	if (typeof input !== 'string' && typeof input !== 'number') {
-		throw new TypeError(`Expected an String/Number in the second argument, got ${typeof input}`);
+		throw new TypeError(`Expected an String/Number, got ${typeof input}`);
 	}
 
 	if (isNaN(input)) {
