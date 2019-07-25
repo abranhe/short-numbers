@@ -3,7 +3,7 @@ import shortNumbers from '.';
 
 test('Invalid input', t => {
 	const error = t.throws(() => shortNumbers({}), TypeError);
-	t.is(error.message, 'Expected an String/Number in the second argument, got object');
+	t.is(error.message, 'Expected an String/Number, got object');
 });
 
 test('Non numerical string', t => {
