@@ -4,7 +4,6 @@
 
 ### Why?
 
-- Actively maintained.
 - Supports space before sufix.
 - Include type definitions.
 
